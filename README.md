@@ -13,6 +13,22 @@
 - **Offline First**: All data is persisted locally (AsyncStorage).
 - **Modern UI**: Polished, floating tab bar design with NativeWind (Tailwind CSS) styling.
 
+## 💾 Data Import
+
+Zest supports importing meal plans and settings via JSON.
+
+### Using the Template
+A template file is provided at `data_template.json` in the root directory. You can use this to structure your data for import.
+
+**Steps to Import:**
+1.  Copy `data_template.json` to your device (or create a JSON file with the same structure).
+2.  Go to **Settings** > **Data Management**.
+3.  Tap **Import JSON Data** and select your file.
+
+**Template Structure:**
+- `settings`: Custom meal slots (e.g., Breakfast, Lunch).
+- `weeks`: An array of week objects containing days and meals.
+
 ## 🛠 Tech Stack
 
 - **Framework**: [React Native](https://reactnative.dev/) with [Expo SDK 54](https://expo.dev/)
