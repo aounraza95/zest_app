@@ -1,0 +1,1264 @@
+{
+  "settings": {
+    "mealDefinitions": [
+      {
+        "id": "def-breakfast",
+        "name": "Breakfast",
+        "defaultTime": "08:00",
+        "notify": true
+      },
+      {
+        "id": "def-snack1",
+        "name": "Snack 1",
+        "defaultTime": "11:00",
+        "notify": false
+      },
+      {
+        "id": "def-lunch",
+        "name": "Lunch",
+        "defaultTime": "13:00",
+        "notify": true
+      },
+      {
+        "id": "def-preworkout",
+        "name": "Pre-Workout Snack",
+        "defaultTime": "16:30",
+        "notify": false
+      },
+      {
+        "id": "def-dinner",
+        "name": "Dinner (Post-Workout)",
+        "defaultTime": "19:30",
+        "notify": true
+      },
+      {
+        "id": "def-beforesleep",
+        "name": "Before Sleep",
+        "defaultTime": "22:30",
+        "notify": false
+      }
+    ]
+  },
+  "weeks": [
+    {
+      "id": "week-1",
+      "label": "Week 1",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yogurt with Dates & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Curry with Basmati Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Peanut Butter Sandwich & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "3-Egg Vegetable Omelette with Bread",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        {
+          "name": "Oats",
+          "category": "General"
+        },
+        {
+          "name": "Rice",
+          "category": "General"
+        },
+        {
+          "name": "Chicken (Halal)",
+          "category": "General"
+        },
+        {
+          "name": "Eggs",
+          "category": "General"
+        },
+        {
+          "name": "Milk",
+          "category": "General"
+        },
+        {
+          "name": "Greek Yogurt",
+          "category": "General"
+        },
+        {
+          "name": "Bananas",
+          "category": "General"
+        },
+        {
+          "name": "Apples",
+          "category": "General"
+        },
+        {
+          "name": "Dates",
+          "category": "General"
+        },
+        {
+          "name": "Almonds",
+          "category": "General"
+        },
+        {
+          "name": "Peanut Butter",
+          "category": "General"
+        },
+        {
+          "name": "Olive Oil",
+          "category": "General"
+        }
+      ]
+    },
+    {
+      "id": "week-2",
+      "label": "Week 2",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Paratha with Yogurt & Orange",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Keema with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Banana Peanut Butter Smoothie",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Daal with Chapati",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        {
+          "name": "Rice",
+          "category": "General"
+        },
+        {
+          "name": "Beef Mince (Halal)",
+          "category": "General"
+        },
+        {
+          "name": "Lentils",
+          "category": "General"
+        },
+        {
+          "name": "Eggs",
+          "category": "General"
+        },
+        {
+          "name": "Milk",
+          "category": "General"
+        },
+        {
+          "name": "Yogurt",
+          "category": "General"
+        },
+        {
+          "name": "Bananas",
+          "category": "General"
+        },
+        {
+          "name": "Apples",
+          "category": "General"
+        },
+        {
+          "name": "Oranges",
+          "category": "General"
+        },
+        {
+          "name": "Dates",
+          "category": "General"
+        },
+        {
+          "name": "Almonds",
+          "category": "General"
+        }
+      ]
+    },
+    {
+      "id": "week-3",
+      "label": "Week 3",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Peanut Butter Banana Toast & Milk",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Frozen Berries & Walnuts",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Chicken with Potatoes",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Quark with Honey & Pear",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Vegetable Rice with Yogurt",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk",
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        {
+          "name": "Potatoes",
+          "category": "General"
+        },
+        {
+          "name": "Rice",
+          "category": "General"
+        },
+        {
+          "name": "Chicken Breast (Halal)",
+          "category": "General"
+        },
+        {
+          "name": "Eggs",
+          "category": "General"
+        },
+        {
+          "name": "Milk",
+          "category": "General"
+        },
+        {
+          "name": "Quark",
+          "category": "General"
+        },
+        {
+          "name": "Bananas",
+          "category": "General"
+        },
+        {
+          "name": "Pears",
+          "category": "General"
+        },
+        {
+          "name": "Frozen Berries",
+          "category": "General"
+        },
+        {
+          "name": "Olive Oil",
+          "category": "General"
+        }
+      ]
+    },
+    {
+      "id": "week-4",
+      "label": "Week 4",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oatmeal with Raisins & Peanut Butter",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Orange or Kiwi & Almonds",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Rice",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Eggs & Banana",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Wrap with Yogurt Sauce",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Chamomile Tea & Dates",
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        {
+          "name": "Oats",
+          "category": "General"
+        },
+        {
+          "name": "Rice",
+          "category": "General"
+        },
+        {
+          "name": "Salmon or Mackerel (Halal)",
+          "category": "General"
+        },
+        {
+          "name": "Chicken (Halal)",
+          "category": "General"
+        },
+        {
+          "name": "Eggs",
+          "category": "General"
+        },
+        {
+          "name": "Milk",
+          "category": "General"
+        },
+        {
+          "name": "Yogurt",
+          "category": "General"
+        },
+        {
+          "name": "Bananas",
+          "category": "General"
+        },
+        {
+          "name": "Apples",
+          "category": "General"
+        },
+        {
+          "name": "Kiwi",
+          "category": "General"
+        },
+        {
+          "name": "Dates",
+          "category": "General"
+        },
+        {
+          "name": "Almonds",
+          "category": "General"
+        }
+      ]
+    }
+  ]
+}

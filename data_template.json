@@ -1,0 +1,80 @@
+{
+    "settings": {
+        "mealDefinitions": [
+            {
+                "id": "def-breakfast",
+                "name": "Breakfast",
+                "defaultTime": "08:00",
+                "notify": true
+            },
+            {
+                "id": "def-lunch",
+                "name": "Lunch",
+                "defaultTime": "13:00",
+                "notify": true
+            },
+            {
+                "id": "def-dinner",
+                "name": "Dinner",
+                "defaultTime": "19:00",
+                "notify": true
+            },
+            {
+                "id": "def-snack",
+                "name": "Snack",
+                "defaultTime": "16:00",
+                "notify": false
+            }
+        ]
+    },
+    "weeks": [
+        {
+            "id": "week-0",
+            "label": "Week 1",
+            "days": [
+                {
+                    "dayIndex": 0,
+                    "dayOfWeek": "Monday",
+                    "meals": [
+                        {
+                            "definitionId": "def-breakfast",
+                            "name": "Oatmeal with Berries",
+                            "isDone": false
+                        },
+                        {
+                            "definitionId": "def-lunch",
+                            "name": "Chicken Salad",
+                            "isDone": false
+                        },
+                        {
+                            "definitionId": "def-dinner",
+                            "name": "Grilled Salmon",
+                            "isDone": false
+                        }
+                    ]
+                },
+                {
+                    "dayIndex": 1,
+                    "dayOfWeek": "Tuesday",
+                    "meals": [
+                        {
+                            "definitionId": "def-breakfast",
+                            "name": "Scrambled Eggs",
+                            "isDone": false
+                        }
+                    ]
+                }
+            ],
+            "groceryList": [
+                {
+                    "name": "Oats",
+                    "category": "Grains"
+                },
+                {
+                    "name": "Berries",
+                    "category": "Produce"
+                }
+            ]
+        }
+    ]
+}

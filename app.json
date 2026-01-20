@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "grocery_meal_helper",
-    "slug": "grocery_meal_helper",
+    "name": "Zest",
+    "slug": "zest",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,6 +17,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.anonymous.zest",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -34,6 +35,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e6cea1e7-262b-45f9-831d-19c8d89d8725"
+      }
     }
   }
 }
