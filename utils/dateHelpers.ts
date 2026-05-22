@@ -1,15 +1,18 @@
-import { addDays, getISOWeek, startOfWeek } from 'date-fns';
+import { addDays, startOfWeek } from 'date-fns';
 
-// We assume a simple 1-4 cycle based on the ISO week number.
-// Week 1, Week 2, Week 3, Week 4, then back to Week 1.
-// This ensures synchronization with the real calendar.
+// We use a monthly 4-week cycle based on the day of the month.
+// This ensures the app is intuitive (e.g., May 12 is in the 2nd week block).
+// Days 1-7   -> Week 1 (Index 0)
+// Days 8-14  -> Week 2 (Index 1)
+// Days 15-21 -> Week 3 (Index 2)
+// Days 22-28 -> Week 4 (Index 3)
+// Days 29+   -> Cycle back to Week 1 (Index 0)
 export const getCurrentWeekIndex = (): number => {
-    const currentWeekNumber = getISOWeek(new Date());
-    // ISO week 1 -> Index 0
-    // ISO week 2 -> Index 1
-    // ...
-    // ISO week 5 -> Index 0 (cycled)
-    return (currentWeekNumber - 1) % 4;
+    const dayOfMonth = new Date().getDate();
+    // (1-1)/7 = 0
+    // (8-1)/7 = 1
+    // (29-1)/7 = 4 -> 4 % 4 = 0
+    return Math.floor((dayOfMonth - 1) / 7) % 4;
 };
 
 export const getWeekLabel = (index: number): string => {

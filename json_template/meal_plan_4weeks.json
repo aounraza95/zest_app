@@ -1,0 +1,2006 @@
+{
+  "meta": {
+    "purpose": "Weight gain",
+    "gender": "Male",
+    "age": 30,
+    "location": "Germany",
+    "currentWeight_kg": 60,
+    "targetWeight_kg": 75,
+    "timeline": "6 months",
+    "activityLevel": "Low to mild (indoor)",
+    "foodType": "Desi Pakistani mix",
+    "skinNotes": "Acne, oily — plan avoids fried/processed food; prioritises zinc, omega-3, vitamin E, probiotics",
+    "dailyCalorieTarget": 3100,
+    "dailyProteinTarget_g": "130–150",
+    "mealsPerDay": 6
+  },
+  "settings": {
+    "mealDefinitions": [
+      {
+        "id": "def-breakfast",
+        "name": "Breakfast",
+        "defaultTime": "08:00",
+        "notify": true
+      },
+      {
+        "id": "def-snack1",
+        "name": "Snack 1",
+        "defaultTime": "11:00",
+        "notify": false
+      },
+      {
+        "id": "def-lunch",
+        "name": "Lunch",
+        "defaultTime": "13:00",
+        "notify": true
+      },
+      {
+        "id": "def-preworkout",
+        "name": "Pre-Workout Snack",
+        "defaultTime": "16:30",
+        "notify": false
+      },
+      {
+        "id": "def-dinner",
+        "name": "Dinner (Post-Workout)",
+        "defaultTime": "19:30",
+        "notify": true
+      },
+      {
+        "id": "def-beforesleep",
+        "name": "Before Sleep",
+        "defaultTime": "22:30",
+        "notify": false
+      }
+    ]
+  },
+  "weeks": [
+    {
+      "id": "week-1",
+      "label": "Week 1",
+      "theme": "Foundation — establishing base calories and gut health",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "totalCalories": 3080,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Anda Paratha with Dahi & Banana",
+              "qty": "2 eggs · 1 whole wheat paratha · 1 cup dahi · 1 banana",
+              "calories": 720,
+              "recipeNote": "Scramble 2 eggs with haldi, zeera. Shallow-cook whole wheat paratha (minimal oil). Full-fat dahi on side. Banana whole.",
+              "nutritionHighlights": ["Protein", "B12", "Iron", "Calcium", "Probiotics", "Potassium"],
+              "notes": "Use minimal oil for paratha. Full-fat dahi preferred for calories and probiotic content.",
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Mixed Nuts & Apple",
+              "qty": "30g almonds + walnuts · 1 medium apple",
+              "calories": 290,
+              "recipeNote": "Raw unsalted almonds and walnuts. Apple unpeeled for fibre.",
+              "nutritionHighlights": ["Omega-3", "Vit E", "Magnesium", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Daal Mash with Brown Rice & Salad",
+              "qty": "1.5 cups daal · 1.5 cups brown rice · side salad",
+              "calories": 780,
+              "recipeNote": "Cook daal mash with onion, tomato, garlic, zeera, haldi, kala namak. Drizzle 1 tsp olive oil. Salad: cucumber, tomato, lemon.",
+              "nutritionHighlights": ["Protein", "Iron", "Zinc", "Fibre", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Chana Chaat",
+              "qty": "1 cup boiled chickpeas",
+              "calories": 280,
+              "recipeNote": "Boil chickpeas. Toss with lemon juice, zeera powder, chaat masala, green chilli, coriander. No frying.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Karahi with Roti & Saag",
+              "qty": "150g chicken · 2 whole wheat rotis · 1 cup saag",
+              "calories": 820,
+              "recipeNote": "Cook chicken in tomato-onion masala (ginger-garlic, haldi, zeera, lal mirch). Minimal oil (1 tbsp). Pair with whole wheat rotis and mustard saag with a tiny knob of desi ghee.",
+              "nutritionHighlights": ["Protein", "Vit A", "B12", "Iron", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Full-Fat Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia seeds",
+              "calories": 190,
+              "recipeNote": "Warm milk (not boiling). Stir in chia seeds. No sugar. Promotes sleep and adds calcium + omega-3.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D", "Protein"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "totalCalories": 3050,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oats with Milk, Banana & Chia Seeds",
+              "qty": "1 cup oats · 300ml full-fat milk · 1 banana · 1 tbsp chia seeds",
+              "calories": 680,
+              "recipeNote": "Boil oats in milk for 5 minutes. Top with sliced banana and chia seeds. No sugar — banana provides sweetness.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "B12", "Fibre", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Dates & Walnuts",
+              "qty": "4 medjool dates · 20g walnuts",
+              "calories": 260,
+              "recipeNote": "Pair dates with walnut halves. Easy to pack in a small container for university.",
+              "nutritionHighlights": ["Iron", "Magnesium", "Omega-3", "Vit B6"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Aloo Gobi with Brown Rice & Dahi",
+              "qty": "1 cup aloo gobi · 1.5 cups brown rice · 0.5 cup dahi",
+              "calories": 750,
+              "recipeNote": "Cook potato and cauliflower in tomato-onion masala. Add zeera, haldi, coriander. Dahi on side.",
+              "nutritionHighlights": ["Vit C", "Vit K", "Fibre", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Fruit Chaat",
+              "qty": "1 large bowl mixed fruits (apple, banana, orange, guava)",
+              "calories": 250,
+              "recipeNote": "Sprinkle chaat masala and lemon juice. No added salt in excess.",
+              "nutritionHighlights": ["Vit C", "Vit E", "Fibre", "Antioxidants"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Baked Kofta Curry with Roti & Salad",
+              "qty": "4 small koftas (chicken/beef mince) · 2 rotis · side salad",
+              "calories": 850,
+              "recipeNote": "Mix lean mince with onion, egg, zeera, coriander. Shape into koftas. Bake at 200°C for 20 min (no frying). Cook in tomato masala.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with a small spoon of honey. Promotes sleep quality.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Light Haleem with Boiled Egg",
+              "qty": "1 cup haleem · 1 boiled egg",
+              "calories": 700,
+              "recipeNote": "Batch-cook haleem: wheat, lentils, chicken. Minimal oil. Tarka of zeera + onion. High protein — reheat quickly.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "B12", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Greek Yoghurt with Honey & Flaxseeds",
+              "qty": "200g Greek yoghurt · 1 tsp honey · 1 tbsp flaxseed",
+              "calories": 280,
+              "recipeNote": "Mix together. Portable in a small sealed container.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Probiotics", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Rajma Chawal (Kidney Bean Rice)",
+              "qty": "1.5 cups rajma · 1.5 cups brown rice",
+              "calories": 790,
+              "recipeNote": "Pressure-cook rajma with onion-tomato masala, ginger-garlic, zeera, coriander. Serve over brown rice.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Folate", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Egg & Pear",
+              "qty": "1 boiled egg · 1 pear",
+              "calories": 200,
+              "recipeNote": "Hard-boiled egg sprinkled with kala namak. Pear whole for fibre.",
+              "nutritionHighlights": ["B12", "Protein", "Fibre", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Fish Curry with Roti & Raita",
+              "qty": "150g salmon or tilapia · 2 whole wheat rotis · 0.5 cup raita",
+              "calories": 860,
+              "recipeNote": "Cook fish in light tomato-onion masala. Salmon preferred for omega-3. Raita: dahi + cucumber + zeera.",
+              "nutritionHighlights": ["Omega-3", "Vit D", "Protein", "B12", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk. Stir in chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "totalCalories": 3020,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Whole Wheat Toast with Peanut Butter & Milk",
+              "qty": "2 slices wholegrain toast · 2 tbsp natural peanut butter · 300ml full-fat milk",
+              "calories": 680,
+              "recipeNote": "Natural peanut butter (no added sugar). Full-fat milk.",
+              "nutritionHighlights": ["Protein", "Healthy fats", "Calcium", "Vit D", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Mixed Seeds & Dried Apricots",
+              "qty": "2 tbsp pumpkin seeds · 4 dried apricots",
+              "calories": 240,
+              "recipeNote": "Pre-pack in small zip bag. Ideal for university. Apricots are high in iron.",
+              "nutritionHighlights": ["Zinc", "Iron", "Vit E", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Biryani (Brown Rice Base)",
+              "qty": "1.5 cups biryani with 150g chicken",
+              "calories": 800,
+              "recipeNote": "Use brown rice. Cook chicken in biryani masala (minimal oil). Layer and steam. No food colouring. Fresh mint garnish.",
+              "nutritionHighlights": ["Protein", "B12", "Iron", "Vit B6"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Salted Lassi",
+              "qty": "300ml full-fat lassi",
+              "calories": 220,
+              "recipeNote": "Blend dahi + water + pinch of salt + ice. Salted version better for gut and electrolytes.",
+              "nutritionHighlights": ["Calcium", "Probiotics", "B12", "Electrolytes"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Daal Tadka with Saag & Roti",
+              "qty": "1.5 cups daal · 1 cup saag · 2 rotis",
+              "calories": 800,
+              "recipeNote": "Masoor daal with tomato-garlic tarka. Saag: mustard leaves cooked with ginger. Add a tiny knob of desi ghee at end.",
+              "nutritionHighlights": ["Iron", "Vit A", "Fibre", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "totalCalories": 3150,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Bhurji with Paratha & Fresh Orange Juice",
+              "qty": "3 eggs · 1 whole wheat paratha · 1 orange (freshly squeezed)",
+              "calories": 750,
+              "recipeNote": "Scramble 3 eggs with onion, tomato, green chilli, haldi, zeera. Whole wheat paratha shallow-cooked. Freshly squeezed OJ.",
+              "nutritionHighlights": ["Protein", "B12", "Iron", "Vit C", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Banana & Almond Butter",
+              "qty": "1 large banana · 1.5 tbsp almond butter",
+              "calories": 300,
+              "recipeNote": "Slice banana. Dip in almond butter. Easy portable snack.",
+              "nutritionHighlights": ["Potassium", "Vit E", "Magnesium", "Healthy fats"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chana Masala with Brown Rice & Salad",
+              "qty": "1.5 cups chana · 1.5 cups brown rice · side salad",
+              "calories": 800,
+              "recipeNote": "Pressure-cook chickpeas with onion-tomato base, amchur, zeera, kala namak, coriander. Lemon garnish.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Zinc", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Guava & Roasted Chana",
+              "qty": "1 guava · 0.5 cup roasted chana",
+              "calories": 260,
+              "recipeNote": "Guava unpeeled for Vit C. Roasted chana pre-packed for portability.",
+              "nutritionHighlights": ["Vit C", "Iron", "Protein", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lamb Keema with Roti & Dahi",
+              "qty": "150g lean lamb mince · 2 rotis · 0.5 cup dahi",
+              "calories": 870,
+              "recipeNote": "Cook keema with peas, onion, tomato, zeera, garam masala. Minimal oil. Probiotic dahi on side.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Zinc", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds stirred in.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "totalCalories": 3200,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Light Nihari with Boiled Egg & Roti",
+              "qty": "1 cup light nihari · 1 boiled egg · 1 roti",
+              "calories": 780,
+              "recipeNote": "Slow-cook beef shin with whole spices, ginger, haldi. Skim visible oil before serving. Garnish with ginger julienne and lemon.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Collagen", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Green Smoothie",
+              "qty": "1 banana · handful spinach · 300ml milk · 1 tbsp flaxseed",
+              "calories": 350,
+              "recipeNote": "Blend all ingredients. No added sugar. Spinach adds iron and Vit K without strong taste.",
+              "nutritionHighlights": ["Iron", "Vit K", "Calcium", "Omega-3", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Matar Paneer with Brown Rice",
+              "qty": "150g paneer · 0.5 cup peas · 1.5 cups brown rice",
+              "calories": 820,
+              "recipeNote": "Cook paneer and peas in tomato-onion masala. Light oil. Brown rice on side.",
+              "nutritionHighlights": ["Protein", "Calcium", "Iron", "Vit C", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Mixed Fruits with Sunflower Seeds",
+              "qty": "1 bowl mixed fruit (apple, kiwi, orange) · 1 tbsp sunflower seeds",
+              "calories": 250,
+              "recipeNote": "Seasonal fruit. Sunflower seeds on top for Vit E.",
+              "nutritionHighlights": ["Vit C", "Vit E", "Fibre", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Whole Roasted Chicken Thigh with Saag & Roti",
+              "qty": "200g chicken thigh (roasted) · 1 cup saag · 2 rotis",
+              "calories": 870,
+              "recipeNote": "Marinate chicken in yoghurt, zeera, haldi, garlic. Roast at 200°C for 35 min. Serve with saag and roti.",
+              "nutritionHighlights": ["Protein", "Vit A", "B12", "Iron", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Anda Paratha with Fresh Fruit & Dahi",
+              "qty": "2 eggs · 1 paratha · 1 cup dahi · 1 apple",
+              "calories": 720,
+              "recipeNote": "Omelette with green chilli and coriander. Whole wheat paratha. Dahi + fresh apple.",
+              "nutritionHighlights": ["Protein", "B12", "Calcium", "Probiotics", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Dates & Pistachios",
+              "qty": "4 dates · 20g pistachios",
+              "calories": 280,
+              "recipeNote": "Pack in small container. Portable and calorie-dense.",
+              "nutritionHighlights": ["Iron", "Magnesium", "Vit B6", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Paye Soup with Brown Rice",
+              "qty": "1 bowl paye bone broth · 1.5 cups brown rice",
+              "calories": 780,
+              "recipeNote": "Slow-cook trotters with whole spices, ginger-garlic. Skim fat. High collagen, gut-healing broth. Brown rice on side.",
+              "nutritionHighlights": ["Collagen", "Protein", "Zinc", "Magnesium", "Glycine"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Roasted Pumpkin Seeds & Green Tea",
+              "qty": "30g pumpkin seeds · 1 cup green tea",
+              "calories": 200,
+              "recipeNote": "Raw or lightly roasted pumpkin seeds. Green tea for skin-supporting antioxidants.",
+              "nutritionHighlights": ["Zinc", "Magnesium", "Vit E", "Antioxidants"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Fish Tikka with Daal & Roti",
+              "qty": "150g salmon tikka · 0.5 cup masoor daal · 2 rotis",
+              "calories": 850,
+              "recipeNote": "Marinate salmon in yoghurt-tikka masala 2h. Grill or oven-bake. Serve with masoor daal and roti.",
+              "nutritionHighlights": ["Omega-3", "Vit D", "Protein", "B12", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds stirred in.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        { "name": "Oats (rolled)", "category": "Grains & Cereals", "estimatedQty": "500g" },
+        { "name": "Brown Rice", "category": "Grains & Cereals", "estimatedQty": "2kg" },
+        { "name": "Whole Wheat Flour (for roti/paratha)", "category": "Grains & Cereals", "estimatedQty": "1kg" },
+        { "name": "Daal Mash (Urad Daal)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Masoor Daal (Red Lentils)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Chickpeas (dried or canned)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Rajma (Kidney Beans)", "category": "Pulses & Legumes", "estimatedQty": "400g" },
+        { "name": "Chicken (Halal)", "category": "Meat & Fish", "estimatedQty": "1.5kg" },
+        { "name": "Lamb/Beef Mince (Halal)", "category": "Meat & Fish", "estimatedQty": "500g" },
+        { "name": "Salmon Fillets", "category": "Meat & Fish", "estimatedQty": "400g" },
+        { "name": "Beef Shin (for nihari/paye)", "category": "Meat & Fish", "estimatedQty": "500g" },
+        { "name": "Paneer", "category": "Dairy & Eggs", "estimatedQty": "250g" },
+        { "name": "Eggs (free range)", "category": "Dairy & Eggs", "estimatedQty": "18 eggs" },
+        { "name": "Full-Fat Milk", "category": "Dairy & Eggs", "estimatedQty": "3 litres" },
+        { "name": "Full-Fat Dahi / Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "1kg" },
+        { "name": "Greek Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "500g" },
+        { "name": "Desi Ghee", "category": "Dairy & Eggs", "estimatedQty": "small jar" },
+        { "name": "Bananas", "category": "Fruits", "estimatedQty": "2 bunches (~14)" },
+        { "name": "Apples", "category": "Fruits", "estimatedQty": "7" },
+        { "name": "Oranges", "category": "Fruits", "estimatedQty": "4" },
+        { "name": "Pears", "category": "Fruits", "estimatedQty": "4" },
+        { "name": "Guava (Asian supermarket)", "category": "Fruits", "estimatedQty": "4" },
+        { "name": "Kiwi", "category": "Fruits", "estimatedQty": "4" },
+        { "name": "Medjool Dates", "category": "Dried Fruit & Nuts", "estimatedQty": "300g" },
+        { "name": "Almonds (raw, unsalted)", "category": "Dried Fruit & Nuts", "estimatedQty": "200g" },
+        { "name": "Walnuts", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Pistachios", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Dried Apricots", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Pumpkin Seeds", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Sunflower Seeds", "category": "Seeds", "estimatedQty": "100g" },
+        { "name": "Chia Seeds", "category": "Seeds", "estimatedQty": "200g" },
+        { "name": "Flaxseeds (ground)", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Natural Peanut Butter (no sugar)", "category": "Spreads & Oils", "estimatedQty": "400g jar" },
+        { "name": "Almond Butter", "category": "Spreads & Oils", "estimatedQty": "250g jar" },
+        { "name": "Olive Oil (extra virgin)", "category": "Spreads & Oils", "estimatedQty": "500ml" },
+        { "name": "Spinach (fresh or frozen)", "category": "Vegetables", "estimatedQty": "500g" },
+        { "name": "Mustard Greens (for saag)", "category": "Vegetables", "estimatedQty": "500g" },
+        { "name": "Tomatoes", "category": "Vegetables", "estimatedQty": "1kg" },
+        { "name": "Onions", "category": "Vegetables", "estimatedQty": "1kg" },
+        { "name": "Garlic", "category": "Vegetables", "estimatedQty": "2 bulbs" },
+        { "name": "Ginger", "category": "Vegetables", "estimatedQty": "200g" },
+        { "name": "Cucumber", "category": "Vegetables", "estimatedQty": "3" },
+        { "name": "Green Chillies", "category": "Vegetables", "estimatedQty": "100g" },
+        { "name": "Haldi (Turmeric)", "category": "Spices", "estimatedQty": "small pack" },
+        { "name": "Zeera (Cumin Seeds)", "category": "Spices", "estimatedQty": "small pack" },
+        { "name": "Garam Masala", "category": "Spices", "estimatedQty": "small pack" },
+        { "name": "Chaat Masala", "category": "Spices", "estimatedQty": "small pack" },
+        { "name": "Kala Namak (Black Salt)", "category": "Spices", "estimatedQty": "small pack" },
+        { "name": "Lal Mirch (Red Chilli Powder)", "category": "Spices", "estimatedQty": "small pack" },
+        { "name": "Honey (raw)", "category": "Pantry", "estimatedQty": "250g jar" },
+        { "name": "Green Tea Bags", "category": "Pantry", "estimatedQty": "1 box" }
+      ]
+    },
+    {
+      "id": "week-2",
+      "label": "Week 2",
+      "theme": "Building variety — introducing new protein sources and gut diversity",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Besan Cheela with Dahi & Banana",
+              "qty": "2 cheelas · 1 cup dahi · 1 banana",
+              "calories": 700,
+              "recipeNote": "Besan (gram flour) batter with onion, green chilli, zeera, coriander. Cook like a pancake with minimal oil. High protein and zinc-rich.",
+              "nutritionHighlights": ["Protein", "Zinc", "Calcium", "Probiotics", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Walnuts & Dried Figs",
+              "qty": "25g walnuts · 3 dried figs",
+              "calories": 280,
+              "recipeNote": "Pack together. Figs provide iron and calcium.",
+              "nutritionHighlights": ["Omega-3", "Iron", "Calcium", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Murgh Shorba with Brown Rice & Salad",
+              "qty": "200g chicken in shorba · 1.5 cups rice · side salad",
+              "calories": 800,
+              "recipeNote": "Chicken broth-style curry: light tomato-ginger base, haldi, kala namak, zeera. Less masala, more restorative.",
+              "nutritionHighlights": ["Protein", "B12", "Zinc", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Sweet Corn with Lemon",
+              "qty": "1 cob or 1 cup corn kernels",
+              "calories": 220,
+              "recipeNote": "Boil corn. Squeeze lemon, sprinkle zeera and a pinch of chaat masala.",
+              "nutritionHighlights": ["Fibre", "Vit C", "Folate", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Aloo Gosht with Roti & Raita",
+              "qty": "150g lamb/beef · 1 potato · 2 rotis · 0.5 cup raita",
+              "calories": 870,
+              "recipeNote": "Slow-cook meat with potato in onion-tomato masala. Minimal oil. Raita: dahi + mint + cucumber.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey. Promotes restful sleep.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "totalCalories": 3080,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Whole Wheat Seviyan with Milk & Almonds",
+              "qty": "1 cup seviyan · 300ml full-fat milk · 10 almonds",
+              "calories": 690,
+              "recipeNote": "Cook vermicelli in milk. No sugar — add 2 crushed dates for sweetness. Top with slivered almonds.",
+              "nutritionHighlights": ["Calcium", "Vit D", "Iron", "Magnesium", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Boiled Chickpeas with Lemon",
+              "qty": "1 cup boiled chickpeas",
+              "calories": 260,
+              "recipeNote": "Pre-boil batch on Sunday. Store in fridge. Season with lemon + zeera + coriander.",
+              "nutritionHighlights": ["Protein", "Iron", "Zinc", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Spinach Daal with Brown Rice & Dahi",
+              "qty": "1.5 cups spinach daal · 1.5 cups brown rice · 0.5 cup dahi",
+              "calories": 790,
+              "recipeNote": "Add generous fresh spinach to masoor daal. Finish with garlic tarka. Dahi on side for probiotics.",
+              "nutritionHighlights": ["Iron", "Vit K", "Folate", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Fruit Smoothie",
+              "qty": "1 banana · 1 mango or kiwi · 200ml full-fat milk",
+              "calories": 280,
+              "recipeNote": "Blend with milk. No added sugar. Use seasonal fruit.",
+              "nutritionHighlights": ["Vit C", "Potassium", "Calcium", "Vit A"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Bhuna Chicken with Saag & Roti",
+              "qty": "150g chicken · 1 cup saag · 2 rotis",
+              "calories": 840,
+              "recipeNote": "Dry-style bhuna: cook chicken in thick masala until almost dry. Serve alongside mustard saag.",
+              "nutritionHighlights": ["Protein", "Vit A", "B12", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds stirred in.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "totalCalories": 3120,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg & Avocado on Toast with OJ",
+              "qty": "2 eggs · 0.5 avocado · 2 whole wheat slices · 1 fresh orange",
+              "calories": 730,
+              "recipeNote": "Poach or lightly fry eggs. Mash avocado with lemon and black pepper. Freshly squeezed OJ.",
+              "nutritionHighlights": ["Healthy fats", "Protein", "Vit C", "Vit E", "Folate"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Mixed Nuts & Apple",
+              "qty": "35g mixed nuts · 1 apple",
+              "calories": 300,
+              "recipeNote": "Almonds, cashews, walnuts mix. Apple whole. Easy to carry in bag.",
+              "nutritionHighlights": ["Vit E", "Omega-3", "Fibre", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Daal Makhani with Brown Rice",
+              "qty": "1.5 cups daal makhani · 1.5 cups brown rice",
+              "calories": 820,
+              "recipeNote": "Black lentils slow-cooked. Light cream (1 tbsp). Tomato-based. Rich in protein and iron.",
+              "nutritionHighlights": ["Protein", "Iron", "Calcium", "Fibre", "Folate"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Dahi with Flaxseeds & Honey",
+              "qty": "200g dahi · 1 tbsp flaxseed · 1 tsp honey",
+              "calories": 240,
+              "recipeNote": "Mix in small container. Take to university or office.",
+              "nutritionHighlights": ["Probiotics", "Omega-3", "Calcium", "Vit D"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Grilled Salmon with Brown Rice & Salad",
+              "qty": "180g salmon · 1 cup brown rice · side salad",
+              "calories": 870,
+              "recipeNote": "Season salmon with lemon, zeera, haldi, black pepper. Grill 12–15 min. Salad: rocket, cucumber, tomato, olive oil.",
+              "nutritionHighlights": ["Omega-3", "Vit D", "Protein", "B12", "Vit E"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "totalCalories": 3050,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Porridge with Seeds & Dried Apricots",
+              "qty": "1 cup oats · 300ml milk · 1 tbsp chia · 5 dried apricots",
+              "calories": 700,
+              "recipeNote": "Cook oats in milk. Top with chia seeds and chopped dried apricots. Iron-dense breakfast.",
+              "nutritionHighlights": ["Iron", "Omega-3", "Calcium", "Fibre", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Peanut Butter & Banana",
+              "qty": "2 tbsp natural peanut butter · 1 banana",
+              "calories": 290,
+              "recipeNote": "Natural PB. Portable. Eat whole or slice banana.",
+              "nutritionHighlights": ["Protein", "Potassium", "Magnesium", "Healthy fats"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Baked Shami Kebab with Roti & Raita",
+              "qty": "3 kebabs · 2 rotis · 0.5 cup raita",
+              "calories": 800,
+              "recipeNote": "Shami: lentils + mince + egg. Shape and bake at 190°C (no frying). Serve with roti and dahi raita.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Zinc", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Guava & Pumpkin Seeds",
+              "qty": "1 guava · 25g pumpkin seeds",
+              "calories": 230,
+              "recipeNote": "Fresh guava. Seeds packed separately.",
+              "nutritionHighlights": ["Vit C", "Zinc", "Magnesium", "Vit E"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Kali Daal with Ghee Roti & Saag",
+              "qty": "1.5 cups urad daal · 0.5 tsp ghee · 2 rotis · 1 cup saag",
+              "calories": 850,
+              "recipeNote": "Urad daal slow-cooked with garlic tarka. Finish with half tsp ghee. Mustard saag alongside.",
+              "nutritionHighlights": ["Protein", "Vit A", "Iron", "Calcium", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds stirred in.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "totalCalories": 3150,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Whole Wheat French Toast with Berries",
+              "qty": "2 whole wheat slices · 2 eggs · 100ml milk · 0.5 cup berries",
+              "calories": 740,
+              "recipeNote": "Dip whole wheat bread in egg+milk mix. Cook with minimal oil. Berries (frozen ok) are antioxidant-rich.",
+              "nutritionHighlights": ["Protein", "B12", "Vit C", "Antioxidants", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Coconut Water & Dates",
+              "qty": "300ml coconut water (no added sugar) · 3 dates",
+              "calories": 240,
+              "recipeNote": "Electrolyte-replenishing snack. Packaged coconut water, no added sugar.",
+              "nutritionHighlights": ["Potassium", "Magnesium", "Iron", "Electrolytes"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken & Pea Curry with Brown Rice",
+              "qty": "150g chicken · 0.5 cup peas · 1.5 cups brown rice",
+              "calories": 800,
+              "recipeNote": "Cook chicken with onion-tomato, add peas in last 10 min. Garnish with fresh coriander.",
+              "nutritionHighlights": ["Protein", "Vit C", "B12", "Iron", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Salted Lassi & Almonds",
+              "qty": "250ml lassi · 15 almonds",
+              "calories": 290,
+              "recipeNote": "Plain salted lassi + raw almonds.",
+              "nutritionHighlights": ["Calcium", "Probiotics", "Vit E", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Mutton Pulao with Raita & Salad",
+              "qty": "1.5 cups pulao (150g mutton) · 0.5 cup raita",
+              "calories": 890,
+              "recipeNote": "Yakhni pulao style: cook rice in bone broth base. Raita with cucumber and mint.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Zinc", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Herbal Tea & Dates",
+              "qty": "1 cup chamomile tea · 3 dates",
+              "calories": 80,
+              "recipeNote": "Chamomile tea promotes sleep. Dates for iron.",
+              "nutritionHighlights": ["Iron", "Magnesium", "Antioxidants"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "totalCalories": 3200,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Fruit Bowl with Greek Yoghurt & Granola",
+              "qty": "large fruit bowl · 200g Greek yoghurt · 4 tbsp oat granola",
+              "calories": 750,
+              "recipeNote": "Oat-based plain granola (no chocolate). Yoghurt base. Seasonal fruits on top.",
+              "nutritionHighlights": ["Vit C", "Calcium", "Probiotics", "Fibre", "Vit E"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Boiled Eggs & Orange",
+              "qty": "2 boiled eggs · 1 orange",
+              "calories": 250,
+              "recipeNote": "Hard-boil eggs. Pack with orange. Ideal university snack.",
+              "nutritionHighlights": ["Protein", "Vit C", "B12", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Saag Gosht with Brown Rice",
+              "qty": "150g lamb · 1.5 cups saag · 1.5 cups brown rice",
+              "calories": 850,
+              "recipeNote": "Tender lamb cooked in spinach/mustard greens base. Rich iron combo. Brown rice.",
+              "nutritionHighlights": ["Protein", "Iron", "Vit A", "Vit K", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Unsweetened Mango Lassi",
+              "qty": "300ml mango lassi",
+              "calories": 280,
+              "recipeNote": "Fresh or frozen mango + dahi + water. No added sugar.",
+              "nutritionHighlights": ["Vit A", "Calcium", "Probiotics", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Daal Chawal with Fried Egg & Pickle",
+              "qty": "1.5 cups daal · 1.5 cups brown rice · 1 egg · small home-made achar",
+              "calories": 860,
+              "recipeNote": "Classic comfort meal. Masoor or moong daal with garlic tarka. Fried egg on top. Small home-made achar.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Fibre", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Healthier Halwa Puri with Chana",
+              "qty": "0.5 cup suji halwa (1 tsp ghee) · 1 baked whole wheat puri · 0.5 cup boiled chana masala",
+              "calories": 760,
+              "recipeNote": "Suji halwa with 1 tsp ghee only. Puri baked not fried. Boiled chana masala.",
+              "nutritionHighlights": ["Iron", "Vit B", "Zinc", "Protein", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Green Smoothie",
+              "qty": "1 banana · handful spinach · 300ml milk · 1 tbsp flaxseed",
+              "calories": 320,
+              "recipeNote": "Blend all. Iron + calcium + omega-3 in one glass.",
+              "nutritionHighlights": ["Iron", "Calcium", "Omega-3", "Potassium", "Vit K"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Lobia Curry with Brown Rice",
+              "qty": "1.5 cups lobia (black-eyed peas) · 1.5 cups brown rice",
+              "calories": 780,
+              "recipeNote": "Cook lobia in onion-tomato masala with zeera, coriander, haldi. Garnish with lemon.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Folate", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Roasted Chana & Green Tea",
+              "qty": "0.5 cup roasted chana · 1 cup green tea",
+              "calories": 210,
+              "recipeNote": "Pre-packed chana. Green tea antioxidants support skin.",
+              "nutritionHighlights": ["Protein", "Iron", "Antioxidants", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Oven Chicken Tikka with Naan & Dahi",
+              "qty": "150g chicken tikka · 1 thin whole wheat naan · 0.5 cup dahi",
+              "calories": 850,
+              "recipeNote": "Marinate in yoghurt + tikka masala 4h. Oven grill at 200°C for 25 min. Home-made thin naan.",
+              "nutritionHighlights": ["Protein", "B12", "Calcium", "Probiotics", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds stirred in.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        { "name": "Brown Rice", "category": "Grains & Cereals", "estimatedQty": "2kg" },
+        { "name": "Whole Wheat Flour", "category": "Grains & Cereals", "estimatedQty": "1kg" },
+        { "name": "Semolina / Suji", "category": "Grains & Cereals", "estimatedQty": "250g" },
+        { "name": "Whole Wheat Vermicelli (Seviyan)", "category": "Grains & Cereals", "estimatedQty": "250g" },
+        { "name": "Besan (Gram Flour)", "category": "Grains & Cereals", "estimatedQty": "500g" },
+        { "name": "Oats (rolled)", "category": "Grains & Cereals", "estimatedQty": "500g" },
+        { "name": "Masoor Daal", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Urad Daal (Kali Daal)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Moong Daal", "category": "Pulses & Legumes", "estimatedQty": "300g" },
+        { "name": "Chickpeas (dried or canned)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Lobia / Black-Eyed Peas", "category": "Pulses & Legumes", "estimatedQty": "400g" },
+        { "name": "Chicken (Halal, whole + pieces)", "category": "Meat & Fish", "estimatedQty": "1.5kg" },
+        { "name": "Lamb / Mutton (Halal)", "category": "Meat & Fish", "estimatedQty": "1kg" },
+        { "name": "Salmon Fillets", "category": "Meat & Fish", "estimatedQty": "400g" },
+        { "name": "Eggs", "category": "Dairy & Eggs", "estimatedQty": "18 eggs" },
+        { "name": "Full-Fat Milk", "category": "Dairy & Eggs", "estimatedQty": "3 litres" },
+        { "name": "Dahi / Full-Fat Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "1kg" },
+        { "name": "Greek Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "500g" },
+        { "name": "Avocado", "category": "Fruits & Vegetables", "estimatedQty": "2" },
+        { "name": "Bananas", "category": "Fruits & Vegetables", "estimatedQty": "2 bunches" },
+        { "name": "Apples", "category": "Fruits & Vegetables", "estimatedQty": "7" },
+        { "name": "Oranges", "category": "Fruits & Vegetables", "estimatedQty": "6" },
+        { "name": "Mango (fresh or frozen)", "category": "Fruits & Vegetables", "estimatedQty": "2 or 300g frozen" },
+        { "name": "Guava", "category": "Fruits & Vegetables", "estimatedQty": "4" },
+        { "name": "Frozen Berries (mixed)", "category": "Fruits & Vegetables", "estimatedQty": "400g bag" },
+        { "name": "Spinach (fresh or frozen)", "category": "Fruits & Vegetables", "estimatedQty": "500g" },
+        { "name": "Mustard Greens (saag)", "category": "Fruits & Vegetables", "estimatedQty": "500g" },
+        { "name": "Tomatoes", "category": "Fruits & Vegetables", "estimatedQty": "1kg" },
+        { "name": "Onions", "category": "Fruits & Vegetables", "estimatedQty": "1kg" },
+        { "name": "Potatoes", "category": "Fruits & Vegetables", "estimatedQty": "4 medium" },
+        { "name": "Green Peas (frozen)", "category": "Fruits & Vegetables", "estimatedQty": "300g" },
+        { "name": "Garlic", "category": "Fruits & Vegetables", "estimatedQty": "2 bulbs" },
+        { "name": "Ginger", "category": "Fruits & Vegetables", "estimatedQty": "200g" },
+        { "name": "Dates (Medjool)", "category": "Dried Fruit & Nuts", "estimatedQty": "300g" },
+        { "name": "Dried Figs", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Dried Apricots", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Almonds (raw)", "category": "Dried Fruit & Nuts", "estimatedQty": "200g" },
+        { "name": "Walnuts", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Cashews", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Pumpkin Seeds", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Chia Seeds", "category": "Seeds", "estimatedQty": "200g" },
+        { "name": "Flaxseeds (ground)", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Natural Peanut Butter", "category": "Spreads & Oils", "estimatedQty": "400g jar" },
+        { "name": "Oat Granola (plain, no chocolate)", "category": "Pantry", "estimatedQty": "400g" },
+        { "name": "Coconut Water (no added sugar)", "category": "Pantry", "estimatedQty": "4 cans" },
+        { "name": "Chamomile Tea Bags", "category": "Pantry", "estimatedQty": "1 box" },
+        { "name": "Honey (raw)", "category": "Pantry", "estimatedQty": "250g" },
+        { "name": "Tikka Masala Mix", "category": "Spices", "estimatedQty": "1 pack" },
+        { "name": "Biryani Masala", "category": "Spices", "estimatedQty": "1 pack" }
+      ]
+    },
+    {
+      "id": "week-3",
+      "label": "Week 3",
+      "theme": "Increasing micronutrient density — omega-3, zinc, and skin-support focus",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "totalCalories": 3150,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Anda Paratha with Dahi & Pomegranate",
+              "qty": "2 eggs · 1 whole wheat paratha · 1 cup dahi · 0.5 pomegranate",
+              "calories": 740,
+              "recipeNote": "Omelette with capsicum and onion. Whole wheat paratha. Pomegranate seeds — anti-inflammatory, excellent for acne-prone skin.",
+              "nutritionHighlights": ["Protein", "B12", "Vit C", "Probiotics", "Antioxidants"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Almond Milk & Dates",
+              "qty": "300ml unsweetened almond milk · 4 dates",
+              "calories": 280,
+              "recipeNote": "Unsweetened almond milk. Dates provide quick energy and iron.",
+              "nutritionHighlights": ["Calcium", "Iron", "Vit E", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Karahi with Brown Rice & Salad",
+              "qty": "150g chicken · 1.5 cups brown rice · side salad",
+              "calories": 810,
+              "recipeNote": "Karahi with fresh tomatoes, ginger, green chilli, zeera. Minimal oil. Fresh coriander garnish.",
+              "nutritionHighlights": ["Protein", "B12", "Vit C", "Zinc", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Kiwi & Pumpkin Seeds",
+              "qty": "2 kiwis · 25g pumpkin seeds",
+              "calories": 230,
+              "recipeNote": "Slice kiwi. Seeds on side. Kiwi improves iron absorption and gut motility.",
+              "nutritionHighlights": ["Vit C", "Vit K", "Zinc", "Omega-3", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lentil Shorba with Grilled Salmon & Roti",
+              "qty": "1 cup lentil shorba · 150g grilled salmon · 2 rotis",
+              "calories": 890,
+              "recipeNote": "Light lentil broth with zeera and ginger. Grilled salmon separately. Omega-3 + gut health combo.",
+              "nutritionHighlights": ["Omega-3", "Vit D", "Protein", "Fibre", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Overnight Oats with Chia & Berries",
+              "qty": "1 cup oats · 300ml milk · 2 tbsp chia · 0.5 cup berries",
+              "calories": 710,
+              "recipeNote": "Prep night before: oats + milk + chia in jar. Morning: top with frozen or fresh berries. No cooking needed.",
+              "nutritionHighlights": ["Omega-3", "Calcium", "Vit C", "Antioxidants", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Boiled Eggs & Guava",
+              "qty": "2 boiled eggs · 1 guava",
+              "calories": 260,
+              "recipeNote": "Hard-boil eggs. Guava is highest Vit C fruit — available at Asian shops in Germany.",
+              "nutritionHighlights": ["Protein", "B12", "Vit C", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Moong Daal with Ghee & Brown Rice & Raita",
+              "qty": "1.5 cups moong daal · 0.5 tsp ghee · 1.5 cups rice · 0.5 cup raita",
+              "calories": 800,
+              "recipeNote": "Moong daal cooked with haldi and ginger. Easy to digest. Ghee tarka. Raita: dahi + mint.",
+              "nutritionHighlights": ["Protein", "Vit D", "Calcium", "Probiotics", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Trail Mix",
+              "qty": "35g (almonds, cashews, raisins, pumpkin seeds)",
+              "calories": 290,
+              "recipeNote": "Pre-mix and store in jar. Perfect university snack.",
+              "nutritionHighlights": ["Iron", "Zinc", "Vit E", "Magnesium", "Omega-3"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Beef Keema with Peas, Roti & Dahi",
+              "qty": "150g lean beef mince · 0.5 cup peas · 2 rotis · 0.5 cup dahi",
+              "calories": 840,
+              "recipeNote": "Keema matar in onion-tomato masala. Minimal oil. Probiotic dahi on side.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Vit C", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "totalCalories": 3120,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Smoothie Bowl",
+              "qty": "300ml smoothie base · granola + chia + banana toppings",
+              "calories": 720,
+              "recipeNote": "Blend banana + mango + milk + spinach. Pour in bowl. Top: granola, chia, sliced banana.",
+              "nutritionHighlights": ["Vit A", "Iron", "Calcium", "Omega-3", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Roasted Chana & Apple",
+              "qty": "0.5 cup roasted chana · 1 apple",
+              "calories": 270,
+              "recipeNote": "Pre-packed chana. Apple unpeeled for fibre.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Fish Curry with Brown Rice & Saag",
+              "qty": "150g fish · 1.5 cups rice · 1 cup saag",
+              "calories": 820,
+              "recipeNote": "Mild fish curry with tomato-onion base. Saag with garlic. Iron + omega-3 together improves absorption.",
+              "nutritionHighlights": ["Omega-3", "Iron", "Vit A", "Protein", "Vit D"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Greek Yoghurt with Walnuts & Honey",
+              "qty": "200g Greek yoghurt · 20g walnuts · 1 tsp honey",
+              "calories": 280,
+              "recipeNote": "Mix and pack. Omega-3 from walnuts + probiotics from yoghurt = gut support.",
+              "nutritionHighlights": ["Probiotics", "Omega-3", "Calcium", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Palak with Roti & Salad",
+              "qty": "150g chicken · 1 cup palak · 2 rotis",
+              "calories": 850,
+              "recipeNote": "Cook chicken in spinach-based gravy. Haldi, ginger-garlic, zeera. Thick roasted-style gravy.",
+              "nutritionHighlights": ["Protein", "Iron", "Vit K", "B12", "Folate"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "totalCalories": 3050,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Baked Egg Muffins & Banana",
+              "qty": "3 egg muffins (capsicum, spinach, onion filling) · 1 banana",
+              "calories": 700,
+              "recipeNote": "Whisk 3 eggs + chopped veg. Pour in muffin tin. Bake 180°C for 18 min. Batch-cook for whole week.",
+              "nutritionHighlights": ["Protein", "B12", "Vit C", "Iron", "Vit A"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Dates, Pistachios & Milk",
+              "qty": "4 dates · 20g pistachios · 200ml full-fat milk",
+              "calories": 300,
+              "recipeNote": "Dates and pistachios packed. Milk in thermos or bought at university.",
+              "nutritionHighlights": ["Iron", "Calcium", "B12", "Magnesium", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Daal Mash with Brown Rice & Dahi",
+              "qty": "1.5 cups daal mash · 1.5 cups rice · 0.5 cup dahi",
+              "calories": 800,
+              "recipeNote": "Urad daal with ginger-garlic tarka. Healthy gut combo with dahi.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Probiotics", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Fruit Chaat with Sunflower Seeds",
+              "qty": "1 bowl mixed fruit · 1 tbsp sunflower seeds",
+              "calories": 240,
+              "recipeNote": "Seasonal fruit + sunflower seeds. Highest plant-source of Vit E.",
+              "nutritionHighlights": ["Vit C", "Vit E", "Antioxidants", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Stuffed Karela with Qeema & Roti",
+              "qty": "100g lean mince · 2 karelas · 2 rotis",
+              "calories": 800,
+              "recipeNote": "Stuff karela with spiced qeema. Bake instead of fry. Bitter gourd supports skin and blood sugar control.",
+              "nutritionHighlights": ["Protein", "Vit C", "Iron", "Zinc", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "totalCalories": 3180,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Savoury Suji Upma with Egg & Orange",
+              "qty": "1 cup suji upma · 1 boiled egg · 1 orange",
+              "calories": 730,
+              "recipeNote": "Cook suji with zeera, onion, green chilli, peas. Egg on side. Fresh orange for Vit C.",
+              "nutritionHighlights": ["Iron", "Protein", "Vit C", "B12", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Banana & Peanut Butter",
+              "qty": "1 banana · 2 tbsp natural peanut butter",
+              "calories": 290,
+              "recipeNote": "Natural PB. Portable.",
+              "nutritionHighlights": ["Protein", "Potassium", "Healthy fats", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Rajma with Brown Rice, Salad & Dahi",
+              "qty": "1.5 cups rajma · 1.5 cups rice · 0.5 cup dahi",
+              "calories": 820,
+              "recipeNote": "Rajma masala with whole spices. Brown rice. Probiotic dahi on side.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Coconut Water & Mixed Nuts",
+              "qty": "300ml coconut water · 25g mixed nuts",
+              "calories": 270,
+              "recipeNote": "Electrolyte replenishment + healthy fats.",
+              "nutritionHighlights": ["Potassium", "Vit E", "Magnesium", "Omega-3"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Tikka Boti with Daal & Roti",
+              "qty": "150g chicken tikka · 1 cup daal · 2 rotis",
+              "calories": 890,
+              "recipeNote": "Oven-grilled tikka. Pair with protein daal. Dual-protein dinner for muscle gain.",
+              "nutritionHighlights": ["Protein", "B12", "Iron", "Zinc", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "totalCalories": 3200,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Paaye with Roti & Fresh Orange Juice",
+              "qty": "1 bowl paaye · 1 roti · 1 fresh orange",
+              "calories": 760,
+              "recipeNote": "Bone broth-rich paaye. Collagen for gut lining and skin. Fresh OJ for Vit C absorption.",
+              "nutritionHighlights": ["Collagen", "Vit C", "Protein", "Zinc", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Yoghurt Parfait",
+              "qty": "200g dahi · 4 tbsp oat granola · seasonal fruit",
+              "calories": 330,
+              "recipeNote": "Layer: yoghurt → fruit → granola. Oat-based granola only.",
+              "nutritionHighlights": ["Calcium", "Probiotics", "Vit C", "Fibre", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Biryani (Brown Rice) with Raita",
+              "qty": "1.5 cups biryani (150g chicken) · 0.5 cup raita",
+              "calories": 850,
+              "recipeNote": "Batch-cook biryani. Brown rice base. Minimal food colour. Home-made.",
+              "nutritionHighlights": ["Protein", "B12", "Calcium", "Probiotics", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Pomegranate & Walnuts",
+              "qty": "0.5 pomegranate · 20g walnuts",
+              "calories": 260,
+              "recipeNote": "Pomegranate is anti-inflammatory, excellent for acne-prone skin. Walnuts for omega-3.",
+              "nutritionHighlights": ["Vit C", "Omega-3", "Antioxidants", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Mutton Nihari with Roti & Home-Made Pickle",
+              "qty": "150g mutton · 2 rotis · small home-made achar",
+              "calories": 870,
+              "recipeNote": "Slow-cooked mutton nihari. Skim visible fat. Home-made low-sodium achar. Whole wheat roti.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Zinc", "Collagen"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Vegetable Omelette with Whole Wheat Toast, Avocado & OJ",
+              "qty": "3 eggs · 2 slices whole wheat toast · 0.5 avocado · 1 orange",
+              "calories": 750,
+              "recipeNote": "Veg omelette (capsicum, onion, mushroom). Mashed avocado on toast. Fresh OJ.",
+              "nutritionHighlights": ["Protein", "Healthy fats", "Vit C", "Vit E", "Folate"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Unsweetened Mango Lassi",
+              "qty": "300ml mango lassi (no sugar)",
+              "calories": 280,
+              "recipeNote": "Frozen mango + dahi + water. No sugar added.",
+              "nutritionHighlights": ["Vit A", "Calcium", "Probiotics", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Chana Karahi with Roti",
+              "qty": "100g chicken · 1 cup chickpeas · 2 rotis",
+              "calories": 810,
+              "recipeNote": "Cook chicken and chickpeas together in thick masala. Double protein. Lemon garnish.",
+              "nutritionHighlights": ["Protein", "Iron", "Zinc", "Fibre", "B12"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Green Tea with Dates & Almonds",
+              "qty": "1 cup green tea · 3 dates · 15 almonds",
+              "calories": 240,
+              "recipeNote": "Green tea is skin-beneficial. Dates + almonds = iron + Vit E combo.",
+              "nutritionHighlights": ["Antioxidants", "Iron", "Vit E", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Grilled Salmon with Saag & Brown Rice",
+              "qty": "180g salmon · 1 cup saag · 1.5 cups brown rice",
+              "calories": 870,
+              "recipeNote": "Grilled salmon. Mustard saag with garlic-ginger. Brown rice. Omega-3 rich end to week.",
+              "nutritionHighlights": ["Omega-3", "Vit D", "Iron", "Vit A", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        { "name": "Brown Rice", "category": "Grains & Cereals", "estimatedQty": "2kg" },
+        { "name": "Oats (rolled)", "category": "Grains & Cereals", "estimatedQty": "500g" },
+        { "name": "Whole Wheat Flour", "category": "Grains & Cereals", "estimatedQty": "1kg" },
+        { "name": "Semolina / Suji", "category": "Grains & Cereals", "estimatedQty": "250g" },
+        { "name": "Oat Granola (plain)", "category": "Grains & Cereals", "estimatedQty": "400g" },
+        { "name": "Masoor Daal", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Moong Daal", "category": "Pulses & Legumes", "estimatedQty": "400g" },
+        { "name": "Urad Daal (Daal Mash)", "category": "Pulses & Legumes", "estimatedQty": "400g" },
+        { "name": "Rajma (Kidney Beans)", "category": "Pulses & Legumes", "estimatedQty": "400g" },
+        { "name": "Chickpeas (dried or canned)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Chicken (Halal, pieces + tikka cuts)", "category": "Meat & Fish", "estimatedQty": "1.5kg" },
+        { "name": "Beef Mince (Halal, lean)", "category": "Meat & Fish", "estimatedQty": "500g" },
+        { "name": "Mutton / Lamb (Halal, bone-in for nihari)", "category": "Meat & Fish", "estimatedQty": "700g" },
+        { "name": "Salmon Fillets", "category": "Meat & Fish", "estimatedQty": "600g (2 weeks use)" },
+        { "name": "Trotters / Paye (Halal, if available)", "category": "Meat & Fish", "estimatedQty": "500g" },
+        { "name": "Karela (Bitter Gourd, Asian store)", "category": "Vegetables", "estimatedQty": "4 pieces" },
+        { "name": "Capsicum (Red & Green)", "category": "Vegetables", "estimatedQty": "4 pieces" },
+        { "name": "Spinach / Palak", "category": "Vegetables", "estimatedQty": "500g" },
+        { "name": "Mustard Greens", "category": "Vegetables", "estimatedQty": "500g" },
+        { "name": "Tomatoes", "category": "Vegetables", "estimatedQty": "1kg" },
+        { "name": "Onions", "category": "Vegetables", "estimatedQty": "1kg" },
+        { "name": "Garlic", "category": "Vegetables", "estimatedQty": "2 bulbs" },
+        { "name": "Ginger", "category": "Vegetables", "estimatedQty": "200g" },
+        { "name": "Corn (fresh cob or frozen)", "category": "Vegetables", "estimatedQty": "4 cobs or 400g" },
+        { "name": "Eggs", "category": "Dairy & Eggs", "estimatedQty": "21 eggs" },
+        { "name": "Full-Fat Milk", "category": "Dairy & Eggs", "estimatedQty": "3 litres" },
+        { "name": "Dahi / Full-Fat Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "1kg" },
+        { "name": "Greek Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "500g" },
+        { "name": "Unsweetened Almond Milk", "category": "Dairy & Eggs", "estimatedQty": "1 litre" },
+        { "name": "Avocado", "category": "Fruits", "estimatedQty": "2" },
+        { "name": "Bananas", "category": "Fruits", "estimatedQty": "2 bunches" },
+        { "name": "Oranges", "category": "Fruits", "estimatedQty": "6" },
+        { "name": "Guava (Asian supermarket)", "category": "Fruits", "estimatedQty": "4" },
+        { "name": "Kiwi", "category": "Fruits", "estimatedQty": "6" },
+        { "name": "Pomegranate", "category": "Fruits", "estimatedQty": "2" },
+        { "name": "Mango (fresh or frozen)", "category": "Fruits", "estimatedQty": "2 or 300g frozen" },
+        { "name": "Frozen Berries", "category": "Fruits", "estimatedQty": "400g bag" },
+        { "name": "Dates (Medjool)", "category": "Dried Fruit & Nuts", "estimatedQty": "300g" },
+        { "name": "Almonds (raw)", "category": "Dried Fruit & Nuts", "estimatedQty": "200g" },
+        { "name": "Walnuts", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Pistachios", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Cashews", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Raisins", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Pumpkin Seeds", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Sunflower Seeds", "category": "Seeds", "estimatedQty": "100g" },
+        { "name": "Chia Seeds", "category": "Seeds", "estimatedQty": "200g" },
+        { "name": "Flaxseeds (ground)", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Natural Peanut Butter", "category": "Spreads & Oils", "estimatedQty": "400g jar" },
+        { "name": "Coconut Water (no sugar)", "category": "Pantry", "estimatedQty": "4 cans" },
+        { "name": "Green Tea Bags", "category": "Pantry", "estimatedQty": "1 box" },
+        { "name": "Honey (raw)", "category": "Pantry", "estimatedQty": "250g" }
+      ]
+    },
+    {
+      "id": "week-4",
+      "label": "Week 4",
+      "theme": "Consolidation — kefir introduction, batch cooking, and celebrating progress",
+      "days": [
+        {
+          "dayIndex": 0,
+          "dayOfWeek": "Monday",
+          "totalCalories": 3150,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "High-Protein Haleem with Roti & Banana",
+              "qty": "1 cup haleem · 1 roti · 1 banana",
+              "calories": 750,
+              "recipeNote": "Batch-cooked haleem (wheat, lentils, chicken). Great for weekday mornings — reheat in 3 minutes.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "B12", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Trail Mix & Kefir",
+              "qty": "35g trail mix · 200ml plain kefir",
+              "calories": 320,
+              "recipeNote": "Kefir available at Netto, Rewe, Edeka in Germany. Excellent multi-strain probiotic drink.",
+              "nutritionHighlights": ["Probiotics", "Vit E", "Calcium", "Omega-3", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Daal Makhani with Brown Rice & Salad",
+              "qty": "1.5 cups daal makhani · 1.5 cups rice · side salad",
+              "calories": 820,
+              "recipeNote": "Slow-cook black lentils. Light cream (1 tbsp). Drizzle olive oil on salad for Vit E.",
+              "nutritionHighlights": ["Protein", "Iron", "Fibre", "Folate", "Vit E"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Egg, Pear & Pumpkin Seeds",
+              "qty": "1 boiled egg · 1 pear · 20g pumpkin seeds",
+              "calories": 250,
+              "recipeNote": "Simple portable snack. Pack in lunchbox.",
+              "nutritionHighlights": ["Protein", "Zinc", "Fibre", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Chicken Saag with Whole Wheat Naan & Raita",
+              "qty": "150g chicken · 1 cup saag · 1 thin home-made naan · 0.5 cup raita",
+              "calories": 870,
+              "recipeNote": "Cook chicken in spinach gravy. Home-made thin naan. Raita with cucumber and black salt.",
+              "nutritionHighlights": ["Protein", "Vit A", "Iron", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 1,
+          "dayOfWeek": "Tuesday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Overnight Oats Deluxe",
+              "qty": "1 cup oats · 300ml milk · 1 tbsp chia · 20g nuts · 1 banana or berries",
+              "calories": 730,
+              "recipeNote": "Prep night before. Morning: top with almonds, walnuts, banana or berries. Zero cooking required.",
+              "nutritionHighlights": ["Omega-3", "Calcium", "Iron", "Fibre", "Vit E"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Stuffed Dates with Almond Butter",
+              "qty": "4 dates · 1.5 tbsp almond butter",
+              "calories": 280,
+              "recipeNote": "Stuff dates with almond butter. Sweet protein hit. Easy to pack.",
+              "nutritionHighlights": ["Iron", "Vit E", "Magnesium", "Healthy fats"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Whole Chicken Shorba with Brown Rice & Dahi",
+              "qty": "200g chicken · shorba broth · 1.5 cups rice · 0.5 cup dahi",
+              "calories": 810,
+              "recipeNote": "Restorative broth: cook chicken with whole spices, ginger, haldi. Gut-healing collagen in broth.",
+              "nutritionHighlights": ["Protein", "Collagen", "Zinc", "Probiotics", "B12"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Fresh Fruit with Sunflower Seeds",
+              "qty": "1 bowl seasonal fruit · 1 tbsp sunflower seeds",
+              "calories": 250,
+              "recipeNote": "Whatever is in season. Seeds for Vit E and zinc.",
+              "nutritionHighlights": ["Vit C", "Vit E", "Zinc", "Fibre", "Antioxidants"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Keema Aloo with Roti & Dahi",
+              "qty": "150g lean mince · 1 medium potato · 2 rotis · 0.5 cup dahi",
+              "calories": 840,
+              "recipeNote": "Potato absorbs masala flavour. Dry-style keema. Probiotic dahi as digestive aid.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 2,
+          "dayOfWeek": "Wednesday",
+          "totalCalories": 3120,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Egg Bhurji with Brown Toast, OJ & Dahi",
+              "qty": "3 eggs · 2 slices whole wheat toast · 1 orange (fresh) · 0.5 cup dahi",
+              "calories": 740,
+              "recipeNote": "Spiced scrambled eggs + wholegrain toast + fresh OJ + small dahi. Comprehensive morning nutrition.",
+              "nutritionHighlights": ["Protein", "Vit C", "B12", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Banana, Walnuts & Kefir",
+              "qty": "1 banana · 20g walnuts · 150ml kefir",
+              "calories": 310,
+              "recipeNote": "Kefir for gut diversity. Banana + walnuts for energy + omega-3.",
+              "nutritionHighlights": ["Probiotics", "Omega-3", "Potassium", "Calcium", "Vit B6"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chana Saag with Brown Rice",
+              "qty": "1 cup chickpeas · 1 cup saag (spinach/mustard) · 1.5 cups brown rice",
+              "calories": 800,
+              "recipeNote": "Cook chickpeas with spinach or mustard greens. Iron + Vit C absorption maximised together.",
+              "nutritionHighlights": ["Iron", "Protein", "Vit C", "Vit K", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Boiled Corn with Lemon & Chaat Masala",
+              "qty": "1 cup corn kernels",
+              "calories": 220,
+              "recipeNote": "Boil corn. Lemon enhances iron absorption. Portable in sealed container.",
+              "nutritionHighlights": ["Fibre", "Vit C", "Folate", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Fish Tikka with Daal, Roti & Salad",
+              "qty": "150g fish tikka · 1 cup masoor daal · 2 rotis · side salad",
+              "calories": 870,
+              "recipeNote": "Oven-baked fish tikka + protein daal. Double protein dinner.",
+              "nutritionHighlights": ["Omega-3", "Protein", "Iron", "Vit D", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 3,
+          "dayOfWeek": "Thursday",
+          "totalCalories": 3050,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Seviyan Kheer (Light) with Boiled Egg",
+              "qty": "1 cup seviyan cooked in milk (2 dates for sweetness) · 1 boiled egg",
+              "calories": 700,
+              "recipeNote": "Cook vermicelli in full-fat milk. Use 2 crushed dates instead of sugar. Boiled egg on side.",
+              "nutritionHighlights": ["Calcium", "Vit D", "Protein", "B12", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Apple with Almond Butter & Mixed Seeds",
+              "qty": "1 apple · 1.5 tbsp almond butter · 1 tbsp mixed seeds",
+              "calories": 290,
+              "recipeNote": "Slice apple. Dip in almond butter. Seeds on top.",
+              "nutritionHighlights": ["Vit E", "Omega-3", "Fibre", "Zinc", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Light Murgh Makhni with Brown Rice",
+              "qty": "150g chicken · 1 tbsp cream · 1.5 cups brown rice",
+              "calories": 820,
+              "recipeNote": "Light version: minimal cream (1 tbsp). Tomato-based. No food colour. Less butter than restaurant version.",
+              "nutritionHighlights": ["Protein", "B12", "Vit A", "Iron", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Salted Lassi & Pistachios",
+              "qty": "250ml salted lassi · 20g pistachios",
+              "calories": 280,
+              "recipeNote": "Salted lassi + raw pistachios. Pistachios are highest in Vit B6 among nuts.",
+              "nutritionHighlights": ["Calcium", "Probiotics", "Vit B6", "Protein", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Lobia Curry with Saag & Roti",
+              "qty": "1.5 cups black-eyed peas · 1 cup saag · 2 rotis",
+              "calories": 800,
+              "recipeNote": "Black-eyed peas in masala. Saag with garlic. High iron + folate dinner.",
+              "nutritionHighlights": ["Iron", "Folate", "Vit A", "Fibre", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 4,
+          "dayOfWeek": "Friday",
+          "totalCalories": 3200,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Power Smoothie & Whole Wheat Paratha",
+              "qty": "1 large smoothie (banana + spinach + mango + milk + chia + PB) · 1 paratha",
+              "calories": 760,
+              "recipeNote": "Blend all smoothie ingredients. No added sugar. Whole wheat paratha on side.",
+              "nutritionHighlights": ["Protein", "Iron", "Calcium", "Omega-3", "Vit A"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Dates, Almonds & Coconut Water",
+              "qty": "4 dates · 15 almonds · 250ml coconut water",
+              "calories": 300,
+              "recipeNote": "Pre-packed dates and almonds. Coconut water bottle.",
+              "nutritionHighlights": ["Iron", "Vit E", "Potassium", "Electrolytes", "Magnesium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Beef Karahi with Brown Rice & Salad",
+              "qty": "150g beef · 1.5 cups brown rice · side salad",
+              "calories": 840,
+              "recipeNote": "Karahi with fresh tomatoes, ginger, green chilli. Add capsicum for Vit C. Less oil.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Vit C", "Zinc"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Yoghurt with Berries & Granola",
+              "qty": "200g dahi · 0.5 cup berries · 3 tbsp oat granola",
+              "calories": 290,
+              "recipeNote": "Antioxidant-rich skin-supportive snack.",
+              "nutritionHighlights": ["Probiotics", "Vit C", "Antioxidants", "Calcium", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Whole Roasted Chicken with Saag & Roti",
+              "qty": "200g chicken thigh/leg · 1 cup saag · 2 rotis",
+              "calories": 890,
+              "recipeNote": "Yoghurt marinade with tikka spices. Roast fully. Serve with saag and fresh roti.",
+              "nutritionHighlights": ["Protein", "Vit A", "B12", "Iron", "Calcium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 5,
+          "dayOfWeek": "Saturday",
+          "totalCalories": 3250,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Weekend Special: Anda Bhurji, Paratha, Dahi & Fruit Bowl",
+              "qty": "3 eggs · 1 paratha · 0.5 cup dahi · large mixed fruit bowl",
+              "calories": 800,
+              "recipeNote": "Large weekend breakfast. Spiced scrambled eggs, whole wheat paratha, dahi, and a big mixed fruit bowl.",
+              "nutritionHighlights": ["Protein", "B12", "Vit C", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Avocado on Toast with OJ",
+              "qty": "0.5 avocado · 1 wholegrain slice · 1 fresh orange",
+              "calories": 330,
+              "recipeNote": "Mashed avocado on wholegrain. Freshly squeezed OJ.",
+              "nutritionHighlights": ["Healthy fats", "Vit C", "Vit E", "Folate", "Potassium"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Mutton Biryani (Brown Rice) with Raita & Salad",
+              "qty": "1.5 cups biryani (150g mutton) · 0.5 cup raita",
+              "calories": 880,
+              "recipeNote": "Home-made mutton biryani with brown rice base. Raita: dahi + cucumber + zeera + mint.",
+              "nutritionHighlights": ["Protein", "Iron", "B12", "Calcium", "Probiotics"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Pomegranate & Mixed Nuts",
+              "qty": "0.5 pomegranate · 30g mixed nuts",
+              "calories": 280,
+              "recipeNote": "Anti-inflammatory pomegranate + mixed nuts. Great for skin.",
+              "nutritionHighlights": ["Antioxidants", "Omega-3", "Vit C", "Vit E", "Iron"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Grilled Salmon Saag with Brown Rice",
+              "qty": "180g salmon · 1 cup saag · 1.5 cups brown rice",
+              "calories": 880,
+              "recipeNote": "Grilled salmon in light saag gravy. Brown rice. Omega-3 + Vit K combo outstanding for skin and joints.",
+              "nutritionHighlights": ["Omega-3", "Vit D", "Vit K", "Iron", "Protein"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Chia Seeds",
+              "qty": "300ml full-fat milk · 1 tbsp chia",
+              "calories": 190,
+              "recipeNote": "Warm milk with chia seeds.",
+              "nutritionHighlights": ["Calcium", "Omega-3", "Vit D"],
+              "isDone": false
+            }
+          ]
+        },
+        {
+          "dayIndex": 6,
+          "dayOfWeek": "Sunday",
+          "totalCalories": 3100,
+          "meals": [
+            {
+              "definitionId": "def-breakfast",
+              "name": "Oat Banana Pancakes with Honey & Dahi",
+              "qty": "2 pancakes (1 banana + 1 egg + 4 tbsp oats) · 1 tsp honey · 1 cup dahi",
+              "calories": 740,
+              "recipeNote": "Mash banana + egg + oats. Pan-fry with minimal oil. Drizzle honey. Dahi on side.",
+              "nutritionHighlights": ["Protein", "Potassium", "Calcium", "Probiotics", "Fibre"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-snack1",
+              "name": "Trail Mix & Kefir",
+              "qty": "35g trail mix · 200ml kefir",
+              "calories": 310,
+              "recipeNote": "Final week — celebrate with gut-boosting kefir and vitamin-dense trail mix.",
+              "nutritionHighlights": ["Probiotics", "Iron", "Omega-3", "Zinc", "Vit E"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-lunch",
+              "name": "Chicken Chana Masala with Brown Rice",
+              "qty": "100g chicken · 1 cup chickpeas · 1.5 cups brown rice",
+              "calories": 820,
+              "recipeNote": "Double protein. Lemon garnish for Vit C. Coriander for antioxidants.",
+              "nutritionHighlights": ["Protein", "Iron", "Zinc", "Fibre", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-preworkout",
+              "name": "Mango Lassi & Dates",
+              "qty": "250ml unsweetened mango lassi · 3 dates",
+              "calories": 270,
+              "recipeNote": "Blend fresh/frozen mango with dahi. No sugar. Dates for iron.",
+              "nutritionHighlights": ["Vit A", "Calcium", "Probiotics", "Iron", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-dinner",
+              "name": "Celebration Desi Thali",
+              "qty": "Full thali: daal + chicken karahi + brown rice + roti + dahi + fresh salad",
+              "calories": 890,
+              "recipeNote": "A reward thali to close 4 weeks. Daal + chicken karahi + brown rice + roti + dahi + fresh salad. Home-made only.",
+              "nutritionHighlights": ["Protein", "Iron", "Calcium", "Probiotics", "Omega-3", "Vit C"],
+              "isDone": false
+            },
+            {
+              "definitionId": "def-beforesleep",
+              "name": "Warm Milk with Honey",
+              "qty": "300ml full-fat milk · 1 tsp honey",
+              "calories": 200,
+              "recipeNote": "Final night. Warm milk with honey.",
+              "nutritionHighlights": ["Calcium", "Vit D", "B12"],
+              "isDone": false
+            }
+          ]
+        }
+      ],
+      "groceryList": [
+        { "name": "Brown Rice", "category": "Grains & Cereals", "estimatedQty": "2kg" },
+        { "name": "Oats (rolled)", "category": "Grains & Cereals", "estimatedQty": "500g" },
+        { "name": "Whole Wheat Flour", "category": "Grains & Cereals", "estimatedQty": "1kg" },
+        { "name": "Whole Wheat Vermicelli (Seviyan)", "category": "Grains & Cereals", "estimatedQty": "250g" },
+        { "name": "Oat Granola (plain, no chocolate)", "category": "Grains & Cereals", "estimatedQty": "400g" },
+        { "name": "Masoor Daal", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Urad Daal (Kali Daal / Daal Makhani base)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Lobia (Black-Eyed Peas)", "category": "Pulses & Legumes", "estimatedQty": "400g" },
+        { "name": "Chickpeas (dried or canned)", "category": "Pulses & Legumes", "estimatedQty": "500g" },
+        { "name": "Chicken (Halal — whole + tikka cuts)", "category": "Meat & Fish", "estimatedQty": "2kg" },
+        { "name": "Beef (Halal — lean mince + karahi cuts)", "category": "Meat & Fish", "estimatedQty": "700g" },
+        { "name": "Mutton (Halal — biryani + nihari cuts)", "category": "Meat & Fish", "estimatedQty": "500g" },
+        { "name": "Salmon Fillets", "category": "Meat & Fish", "estimatedQty": "600g" },
+        { "name": "Eggs", "category": "Dairy & Eggs", "estimatedQty": "21 eggs" },
+        { "name": "Full-Fat Milk", "category": "Dairy & Eggs", "estimatedQty": "3.5 litres" },
+        { "name": "Dahi / Full-Fat Yoghurt", "category": "Dairy & Eggs", "estimatedQty": "1.5kg" },
+        { "name": "Kefir (plain, Rewe / Netto / Edeka)", "category": "Dairy & Eggs", "estimatedQty": "1 litre" },
+        { "name": "Avocado", "category": "Fruits & Vegetables", "estimatedQty": "2" },
+        { "name": "Bananas", "category": "Fruits & Vegetables", "estimatedQty": "2 bunches" },
+        { "name": "Oranges", "category": "Fruits & Vegetables", "estimatedQty": "6" },
+        { "name": "Mango (fresh or frozen)", "category": "Fruits & Vegetables", "estimatedQty": "2 or 300g frozen" },
+        { "name": "Pomegranate", "category": "Fruits & Vegetables", "estimatedQty": "2" },
+        { "name": "Frozen Berries (mixed)", "category": "Fruits & Vegetables", "estimatedQty": "400g bag" },
+        { "name": "Pears", "category": "Fruits & Vegetables", "estimatedQty": "4" },
+        { "name": "Apples", "category": "Fruits & Vegetables", "estimatedQty": "5" },
+        { "name": "Spinach / Palak", "category": "Fruits & Vegetables", "estimatedQty": "500g" },
+        { "name": "Mustard Greens (Saag)", "category": "Fruits & Vegetables", "estimatedQty": "500g" },
+        { "name": "Capsicum (Red + Green)", "category": "Fruits & Vegetables", "estimatedQty": "4 pieces" },
+        { "name": "Tomatoes", "category": "Fruits & Vegetables", "estimatedQty": "1kg" },
+        { "name": "Onions", "category": "Fruits & Vegetables", "estimatedQty": "1kg" },
+        { "name": "Potatoes", "category": "Fruits & Vegetables", "estimatedQty": "5 medium" },
+        { "name": "Corn (fresh or frozen)", "category": "Fruits & Vegetables", "estimatedQty": "4 cobs or 400g" },
+        { "name": "Garlic", "category": "Fruits & Vegetables", "estimatedQty": "2 bulbs" },
+        { "name": "Ginger", "category": "Fruits & Vegetables", "estimatedQty": "200g" },
+        { "name": "Dates (Medjool)", "category": "Dried Fruit & Nuts", "estimatedQty": "300g" },
+        { "name": "Almonds (raw)", "category": "Dried Fruit & Nuts", "estimatedQty": "200g" },
+        { "name": "Walnuts", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Pistachios", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Cashews", "category": "Dried Fruit & Nuts", "estimatedQty": "100g" },
+        { "name": "Pumpkin Seeds", "category": "Dried Fruit & Nuts", "estimatedQty": "150g" },
+        { "name": "Sunflower Seeds", "category": "Seeds", "estimatedQty": "100g" },
+        { "name": "Chia Seeds", "category": "Seeds", "estimatedQty": "200g" },
+        { "name": "Flaxseeds (ground)", "category": "Seeds", "estimatedQty": "150g" },
+        { "name": "Natural Peanut Butter", "category": "Spreads & Oils", "estimatedQty": "400g jar" },
+        { "name": "Almond Butter", "category": "Spreads & Oils", "estimatedQty": "250g jar" },
+        { "name": "Coconut Water (no sugar)", "category": "Pantry", "estimatedQty": "4 cans" },
+        { "name": "Honey (raw)", "category": "Pantry", "estimatedQty": "250g" },
+        { "name": "Green Tea Bags", "category": "Pantry", "estimatedQty": "1 box" },
+        { "name": "Chamomile Tea Bags", "category": "Pantry", "estimatedQty": "1 box" },
+        { "name": "Biryani Masala", "category": "Spices", "estimatedQty": "1 pack" },
+        { "name": "Tikka Masala Mix", "category": "Spices", "estimatedQty": "1 pack" }
+      ]
+    }
+  ]
+}

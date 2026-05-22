@@ -11,13 +11,14 @@
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#10B981"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "package": "com.anonymous.zest",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -31,7 +32,9 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-notifications",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true
@@ -39,7 +42,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "e6cea1e7-262b-45f9-831d-19c8d89d8725"
+        "projectId": "f6942271-6700-401f-b806-15ec76af67e4"
       }
     }
   }
